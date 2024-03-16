@@ -8,7 +8,7 @@ import { env } from './utils/env';
 import { handle } from 'hono/vercel';
 
 export const config = {
-  runtime: 'edge'
+  runtime: 'nodejs'
 };
 
 const app = new Hono().basePath("/api");
